@@ -15,3 +15,16 @@
 *.sx32fsl
 *.wx64fsl
 *.wx32fsl
+
+
+# clion
+.idea/
+cmake-build-*/
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
