@@ -52,7 +52,7 @@
             (format t "~V@t</~s>~&" i (car L))
         )
 
-        (format t "~V@t~s~&" i L)
+        (format t "~V@t~a~&" i L)
     )
 )
 
@@ -71,7 +71,7 @@
          (format file "~V@t</~s>~&" i (car L))
        )
 
-       (format file "~V@t~s~&" i L)
+       (format file "~V@t~a~&" i L)
   )
 )
 
