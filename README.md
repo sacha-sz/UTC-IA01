@@ -17,9 +17,25 @@ Tous les TD et TP sont réalisés en commonLisp.
 .   .   └── Rapport-TD1.pdf
 .   └...
 └── TD
-    ├── TD1
-    .   ├── TD1-EX1.cl
-    .   └── ...
+    ├── TD01
+    .   ├── EX1.cl
+    .   ├── EX2.cl
+    .   └── TD01_lisp.pdf
+    ├── TD02
+    .   ├── EX1.cl
+    .   └── TD02_arbres.pdf
+    ├── TD03
+    .   ├── EX1.cl
+    .   ├── EX2.cl
+    .   ├── test.html
+    .   └── TD03_pageHTML.pdf
+    ├── TD04
+    .   ├── EX1.cl
+    .   └── TD04_Espace_Etats.pdf
+    ├── TD05
+    .   ├── EX1.cl
+    .   └── TD05_SE.pdf
+    
     └...
 ```
 ## :technologist: - Langage utilisé
