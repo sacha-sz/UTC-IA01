@@ -57,3 +57,34 @@
 )
 
 (make_html *html* 0)
+
+;;; Modification du make_html
+(defun make_html_file (L i file)
+  (if (listp L)
+      (progn
+          (format file "~&~V@t<~s>~&" i (car L))
+
+          (dolist (x (cdr L))
+                (make_html_file x (+ i 3) file)
+          )
+
+         (format file "~V@t</~s>~&" i (car L))
+       )
+
+       (format file "~V@t~s~&" i L)
+  )
+)
+
+
+
+;;; Ecriture dans un fichier
+(defun write_html_file (L file)
+  (with-open-file (file file
+                        :direction :output
+                        :if-exists :overwrite
+                        :if-does-not-exist :create)
+    (make_html_file L 0 file)
+  )
+)
+
+(write_html_file *html* "test.html")
