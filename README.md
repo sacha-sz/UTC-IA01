@@ -48,7 +48,7 @@ Tous les TD et TP sont réalisés en commonLisp.
 ## :notebook_with_decorative_cover: - Auteurs et contributeurs
 
 -   **sacha-sz** - Tous les TD et TP - [sacha-sz](https://github.com/sacha-sz/)
--  **4igle**  - Collaboration sur les TP - [4igle](https://github.com/4igle/)
+-  **Th3o-D**  - Collaboration sur les TP - [Th3o-D](https://github.com/Th3o-D/)
 
 ## :bookmark_tabs: - Références
 - **Lien moodle vers le cours** : [UTC-IA01](https://moodle.utc.fr/enrol/index.php?id=303)
