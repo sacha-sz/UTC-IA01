@@ -51,4 +51,4 @@ Tous les TD et TP sont réalisés en commonLisp.
 -  **Th3o-D**  - Collaboration sur les TP - [Th3o-D](https://github.com/Th3o-D/)
 
 ## :bookmark_tabs: - Références
-- **Lien moodle vers le cours** : [UTC-IA01](https://moodle.utc.fr/enrol/index.php?id=303)
+- **Lien moodle vers le cours**, (nécessite d'être connecté pour y accéder): [UTC-IA01](https://moodle.utc.fr/enrol/index.php?id=303)
